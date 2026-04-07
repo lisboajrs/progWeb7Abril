@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    background-color: #a0a03f;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+
+.card{
+    text-align: center;
+    width: 350px;
+    background-color: #abb160;
+    box-shadow: 0 100px 100px rgba(0,0,0,0.5);
+    padding-bottom: 30px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.banner{
+    background: linear-gradient(45deg,#5d855c,#292635);
+    height: 100px;
+
+}
+.foto{
+    width: 150px;
+    height: 120px;
+    border-radius: 50%;
+    border: 5px solid #292635;
+    margin-top: -60px;
+    object-fit: cover;
+}
+
+.bio{
+    font-size: 0.9rem;
+    color: #5d855c;
+    padding: 0 20px;
+    margin-bottom: 25px;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 0 30px;
+}
+
+.botao{
+    text-decoration: none;
+    color: #5d855c;
+    background: #a0a03f;
+    padding: 12px;
+    font-weight: 700;
+    border-radius: 20px 0 20px 0;
+    box-shadow: 4px 4px 0px #434622;
+    transition: all o.3s ease;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    gap:10px;
+}
+
+.botao:hover{
+    background: #5d855c;
+    color: #a0a03f;
+    transform: scale(1.05);
+    box-shadow: 0px 0px 15px #5d855c;
+    border-radius: 0 20px 0 20px;
+}
